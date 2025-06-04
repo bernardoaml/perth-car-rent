@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-transparent text-white shadow-md">
+    <header className="w-full z-50 bg-transparent text-black shadow-md">
       <div className="max-w-screen-2xl mx-auto py-4 flex items-center justify-between">
         {/* LOGO */}
         <div className="flex-shrink-0">
@@ -15,8 +15,6 @@ function Header() {
         <nav className="flex-1 hidden lg:flex justify-end gap-8 text-sm font-semibold tracking-wide">
           <a href="#" className="hover:text-brand-orange">HOME</a>
           <a href="#">WHY CHOOSE US</a>
-          <a href="#">SPECIAL HIRE</a>
-          <a href="#">DISCOVER WA</a>
           <a href="#">FAQ</a>
           <a href="#">CONTACT</a>
         </nav>
