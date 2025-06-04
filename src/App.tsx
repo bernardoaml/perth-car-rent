@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Faq from './components/Faq'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
+import ExtraInfo from './components/ExtraInfo'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <AboutUs />
+      <ExtraInfo />
       <Faq />
       <Footer/>
     </>
