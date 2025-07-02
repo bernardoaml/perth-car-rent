@@ -22,7 +22,7 @@ function Footer() {
         <div className="flex flex-col items-start gap-4 max-w-md">
           <img src="/logo-move1.png" alt="Company Logo" className="h-24 w-auto" />
           <p className="text-gray-300 text-sm">
-            We offer the quickest and most affordable way to go from one place to another.
+            Budget-friendly solutions going from A to B. 
           </p>
         </div>
 

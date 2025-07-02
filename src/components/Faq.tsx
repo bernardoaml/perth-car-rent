@@ -3,6 +3,19 @@ import { IoChevronDown, IoChevronUp } from "react-icons/io5"
 
 const faqs = [
   {
+    question: "Is it unlimited KMs?",
+    answer: "Yes it is",
+  },
+  {
+    question: "Can I use a foreign driver’s license?",
+    answer: "Yes, but if not in English a translation and passport are required.",
+  },
+  {
+    question: "Can I travel far ?",
+    answer:
+      "No , Our cars are used for Perth Metro only – Boundaries: Mandurah, Ellenbrook and Butler.",
+  },
+  {
     question: "Is there a bond required? How much is it?",
     answer:
       "Yes, there is. A bond will vary between $300-400, accordingly to your driver license, age etc.",
@@ -10,14 +23,6 @@ const faqs = [
   {
     question: "Can I reduce my liabilities for accidents when renting a vehicle?",
     answer: "Yes, we offer different types of insurance - third party is mandatory.",
-  },
-  {
-    question: "Can I use a foreign driver’s license?",
-    answer: "Yes, but if not in English a translation and passport are required.",
-  },
-  {
-    question: "Is it limited KMs?",
-    answer: "No, you can drive as much as you want.",
   },
 ]
 

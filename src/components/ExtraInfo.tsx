@@ -9,20 +9,12 @@ function ExtraInfo() {
         {/* 1. Designed for Real Life */}
         <div className="space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-orange">
-            Designed for Real Life
+            Real Life Time Management for Busy People
           </h2>
           <ul className="space-y-4 text-lg leading-relaxed">
             <li className="flex items-start gap-3">
               <span className="text-green-400 text-xl">✔️</span>
-              Need a car to get to school or work?
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-400 text-xl">✔️</span>
-              New to the city? Greater Perth is 4x bigger (area) than London. You will need a car.
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-green-400 text-xl">✔️</span>
-              Staying a few months and don’t want to buy a car?
+              Taking long to get to school or work ?
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-400 text-xl">✔️</span>
@@ -30,43 +22,33 @@ function ExtraInfo() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-green-400 text-xl">✔️</span>
-              Working more hours on second job? Apps?
+              New to the city? Greater Perth is 4x bigger (area) than London.
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-green-400 text-xl">✔️</span>
+              Not sure if stay permanently in Perth? Want freedom?
             </li>
           </ul>
-          <p className="text-lg font-semibold mt-6 text-white">
-            New to Perth and time efficient? Freedom?{" "}
-            <span className="text-brand-orange">Get some wheels with us.</span>
-          </p>
         </div>
 
         {/* 2. Book Now */}
-        <div className="bg-white text-brand-navy rounded-lg shadow-lg p-8 space-y-6">
+        <div className="bg-white rounded-lg shadow-lg p-8 space-y-6 flex-col justify-center items-center">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-brand-orange">
-            Book Now – It’s Fast & Easy
+            GET SOME WHEELS TODAY
           </h2>
-          <ul className="space-y-4 text-lg">
-            <li className="flex items-center gap-3">
-              <span className="text-green-600 text-xl">📝</span>
-              Fill in your details
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-yellow-500 text-xl">⏱️</span>
-              Get approval within 24h
-            </li>
-            <li className="flex items-center gap-3">
-              <span className="text-blue-500 text-xl">🚗</span>
-              Pick up your car and go!
-            </li>
-          </ul>
+          <button className="bg-brand-orange px-5 py-2 text-white font-bold rounded-md hover:brightness-110 lg:ml-56 md:ml-56 sm:ml-4 lg:w-1/2 ">
+            BOOK NOW
+          </button>
+
         </div>
 
         {/* 3. Call to Action + WhatsApp */}
         <div className="space-y-6 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-orange">
-            Need help or have questions?
+            Need help or have any questions?
           </h2>
           <p className="text-lg">
-            Chat with us via WhatsApp or send us a message below.
+            Chat with us via WhatsApp
           </p>
           <a
             href="https://wa.me/5531999999999" // substituir número 
@@ -79,11 +61,10 @@ function ExtraInfo() {
 
           <div className="mt-12">
             <h2 className="text-2xl md:text-3xl font-bold text-brand-orange">
-              Don’t Let Transport Hold You Back
+              Don’t waste your precious time on public transport 
             </h2>
             <p className="mt-2 text-lg">
-              Choose freedom, choose Move Technologies. <br />
-              Get from point A to B without breaking the bank.
+              Choose freedom, choose affordability, choose Move.
             </p>
           </div>
         </div>
